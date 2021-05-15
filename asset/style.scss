@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #211b19 !important;
+}
+
+a, a:active, a:visited, a:hover {
+    color: #0000ff !important;
+    text-decoration: none;
+}
+
+li, p, span {
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #eb5a21;
+}
+
+#main {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+#header, #content {
+    padding: 0px 50px;
+}
+
+#header {
+    height: auto;
+    width: auto;
+    padding: 10px 0px 20px 40px !important;
+    
+
+    .personal_details {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .info {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .image {
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        overflow: hidden;
+        margin: 0px auto;
+
+        img {
+            width: 220px;
+        }
+    }    
+}
+
+#content {
+    height: auto;
+    width: auto;
+
+    #experience {
+        width: 100%;
+        height: auto;
+
+        .work {
+            margin: 10px 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            
+            .work_title {
+                height: 40px;
+                width: 100%;
+            }
+
+            .work_header {
+                height: 100%;
+                width: 100%; 
+                display: flex;
+                align-items: center;
+
+                span {
+                    width: 30%;
+                }
+            }
+
+            .work_content {
+                display: flex;
+                flex-direction: column;
+                height: auto;
+
+                ul {
+                    padding-left: 20px;
+                    margin: 5px 0px;
+                }
+            }
+        }
+    }
+
+    #about {
+        padding: 0px;
+
+        ul {
+            text-decoration: none;
+            list-style-type: none;
+        }
+    }
+}
+
+#footer {
+    background-color: green;
+    height: 100px;
+    width: auto;
+}
+
+/* General Classes */
+
+.title_underline {
+    border-bottom: 2px solid #ffffff;
+    width: 90%;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+}
